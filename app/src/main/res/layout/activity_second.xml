@@ -6,44 +6,57 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jonathanmaldonado.w2d1_ex01.com.example.jonathanmaldonado.w2d1_ex01.SecondActivity">
+    tools:context="com.example.jonathanmaldonado.w2d1_ex01.SecondActivity">
 
-
-    <ImageView
-        android:adjustViewBounds="true"
-        android:id="@+id/imageView2"
-        android:scaleType="fitCenter"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:visibility="visible" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tv_user_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Name"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_user_lastName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Last Name"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
-    <TextView
-        android:id="@+id/tv_user_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imageView2"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:visibility="visible" />
 
-    <TextView
-        android:id="@+id/tv_user_username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Username"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <TextView
+                android:id="@+id/tv_user_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Name"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <TextView
+                android:id="@+id/tv_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <TextView
+                android:id="@+id/tv_user_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

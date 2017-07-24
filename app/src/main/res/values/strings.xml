@@ -4,4 +4,5 @@
     <string name="lbl_hint_input_message">type your message</string>
     <string name="lbl_btn_send_result">Send result</string>
     <string name="btn_lbl_take_picture">Take Picture</string>
+    <string name="btn_lbl_submit">Submit</string>
 </resources>
