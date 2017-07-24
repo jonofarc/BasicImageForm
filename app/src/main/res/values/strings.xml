@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">w1d4-ex02</string>
+    <string name="lbl_btn_activity_result">Activity result</string>
+    <string name="lbl_hint_input_message">type your message</string>
+    <string name="lbl_btn_send_result">Send result</string>
+    <string name="btn_lbl_take_picture">Take Picture</string>
+</resources>
